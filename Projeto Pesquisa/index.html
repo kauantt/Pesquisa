@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesquisa na Wikipedia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-image: url("calming-view-of-fuji-san-aq1uu6u6a00znrqn.jpg");
+    }
+    h1 {
+
+
+      text-align: center;
+    }
+    input, button {
+      padding: 10px;
+      margin: 10px 0;
+      width: 100%;
+    }
+    .result {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      background-color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>Pesquisa na Wikipedia</h1>
+  <input type="text" id="query" placeholder="Digite sua pesquisa...">
+  <button onclick="searchWikipedia()">Pesquisar</button>
+  <div id="results"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
